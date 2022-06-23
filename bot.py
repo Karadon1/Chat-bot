@@ -498,7 +498,7 @@ def bot_message(message):
 +380502649020,
 +380960050864.''')
 
-        elif message.text == "🧑‍💻 Комп'ютерна інженерія":
+        if message.text == "🧑‍💻 Комп'ютерна інженерія":
             markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
             item1 = types.KeyboardButton('💻 Про ОПП(спеціальність) ')
             item2 = types.KeyboardButton('Відео-представлення 📺')
